@@ -1,0 +1,231 @@
+/*File Written by: Jaimin Patel*/
+/*Changes the font for page*/
+@font-face {
+    font-family: Roboto;
+    
+}
+
+ body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    position: relative;
+}
+
+.clear-floats {
+    clear:both;
+}
+
+.container {
+    max-width:1800px;
+    padding:0 10px;
+    display: flex;
+    margin: auto;
+}
+
+/*Styles nav bar*/
+.navbar {
+    background:#FF8600;
+}
+
+.navbar .logo {
+    float:left;
+    width: 20%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.navbar .logo img {
+    height: 60px;
+    margin: 0 10px;
+    padding: 8px 10px;
+}
+
+.navbar .tabs {
+    float:right;
+    width:80%;
+    text-align: right;
+}
+.navbar .tabs a{
+    padding: 30px 20px;
+        
+}
+.navbar a {
+  color:white;
+  display:inline-block;
+  text-decoration:none;
+}
+.navbar a:hover {
+    color: #FAF7F7;
+}
+/*Styles the title and picture*/
+.intro-content {
+    position: relative;
+}
+.background {
+    width: 100%;
+    max-height: 600px;
+    min-height: 600px;
+    filter: brightness(50%)
+}
+.PageTitle {
+    position: absolute;
+    top: 75px;
+    text-align: center;
+    width: 100%;
+}
+.PageTitle h1 {
+    color: white;
+    font-size: 4em;
+}
+.PageTitle h2 {
+    color: #FF8600;
+    font-size: 2em;
+}
+/*All content beneath title img (not including footer)*/
+.content {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+/*Styles all h2 in the contents container*/
+.content h2{
+    align-content: center;
+    padding-left: .5em;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #485563;
+    border-bottom: 3px solid #485563;
+    color: #485563;
+}
+/*Styles container for a pack*/
+.container-pack {
+    padding: 2% 0 2% 0;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(to left, #485563 , #29323c);
+    
+}
+/*Styles pack-left container*/
+.pack-left {
+    padding-left: .5em;
+    padding-right: .5em;
+    display: inline-block;
+    float: left;
+    width: 44%;
+    margin: 1em 1em 1em 1em;
+    border-right: 3px solid #FF8600;
+    border-left: 3px solid #FF8600;
+    background-color: #F2F2F2;
+    font-size: 1.2em;
+}
+/*Styles pack-right container*/
+.pack-right {
+    padding-left: .5em;
+    padding-right: .5em;
+    display: block;
+    float: right;
+    width: 20%;
+    height: 25%;
+    margin: 1em 1em 1em 1em;
+    border-left: 3px solid #FF8600;
+    border-right: 3px solid #FF8600;
+    background-color: #F2F2F2;
+    font-size: 1.5em;
+}
+/*Styles pack-img*/
+.pack-img1 {
+    display: inline-block;
+    max-height: 125px;
+    min-height: 125px;
+    padding: 2%;
+    height: auto;
+    margin: auto auto auto auto;
+    border-left: 3px solid #FF8600;
+}
+.pack-img1 img {
+    height: 100%;
+}
+.pack-img2 {
+    display: inline-block;
+    max-height: 150px;
+    min-height: 150px;
+    padding: 2%;
+    height: auto;
+    margin: auto auto auto auto;
+    border-left: 3px solid #FF8600;
+}
+.pack-img2 img {
+    height: 100%;
+}
+.pack-img3 {
+    display: inline-block;
+    max-height: 200px;
+    min-height: 200px;
+    padding: 2%;
+    height: auto;
+    margin: auto auto auto auto;
+    border-left: 3px solid #FF8600;
+}
+.pack-img3 img {
+    height: 100%;
+}
+
+/*THE FOLLOWING 12 BLOCKS OF CODE STYLE THE FOOTER */
+.footer a{
+    text-decoration: none;
+}
+.footer-container{
+    width: 93%;
+    margin-left:2%;
+    overflow: hidden;
+}
+.footer-logo{
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+.footer-logo img{
+    width:100%;
+    max-width: 300px;
+    margin-top: 10%;
+}
+.footer-nav{
+    width: 25%;
+    float: left;
+    margin-right: 15%;
+}
+.footer-nav li{
+    list-style-type: none;
+    margin-left:  12%;
+}
+.footer-nav h4{
+    margin-bottom: 25px;
+    font-size: 1em;
+    padding-bottom: 2px;
+}
+.footer-nav h4:hover{
+    border-bottom: 2px solid #FF8600;
+    margin-bottom: 23px;
+}
+#current-page{
+    border-bottom: 2px solid #FF8600;
+    margin-bottom: 23px;
+}
+.footer-nav a{
+    color: #485563;
+}
+.footer-connect{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.footer-connect img{
+    width: 20%;
+    margin-top: 5%;
+    height: auto;
+}
+/* THIS IS THE END OF THE FOOTER*/
+
+
